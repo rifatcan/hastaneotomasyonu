@@ -27,7 +27,8 @@
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
               <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="438" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel2" pref="660" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -38,6 +39,7 @@
               <Component id="jPanel1" max="32767" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
+          <Component id="jPanel2" alignment="0" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
   </Layout>
@@ -51,8 +53,14 @@
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="btnhastakayit" alignment="0" max="32767" attributes="0"/>
-                      <Component id="btnpoliklinik" alignment="1" pref="121" max="32767" attributes="0"/>
-                      <Component id="btnpoliklinik1" alignment="0" pref="121" max="32767" attributes="0"/>
+                      <Component id="btnpoliklinik" alignment="1" max="32767" attributes="0"/>
+                      <Component id="btnpoliklinik1" alignment="0" max="32767" attributes="0"/>
+                      <Component id="btnpoliklinik2" alignment="0" max="32767" attributes="0"/>
+                      <Component id="btnpoliklinik3" alignment="0" max="32767" attributes="0"/>
+                      <Component id="btnpoliklinik4" alignment="0" max="32767" attributes="0"/>
+                      <Component id="btnpoliklinik5" alignment="0" max="32767" attributes="0"/>
+                      <Component id="btnpoliklinik6" alignment="0" max="32767" attributes="0"/>
+                      <Component id="btnpoliklinik7" alignment="0" max="32767" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
@@ -67,7 +75,19 @@
                   <Component id="btnpoliklinik" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="btnpoliklinik1" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="330" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="btnpoliklinik2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="btnpoliklinik3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="btnpoliklinik4" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="btnpoliklinik5" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="btnpoliklinik6" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="btnpoliklinik7" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="183" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -94,8 +114,77 @@
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="2" name="C:\Users\rbarka.INNOVA\Documents\NetBeansProjects\HastaneOtoMasyonu\src\images\hasta_kayit.png"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Poliklinik"/>
+            <Property name="text" type="java.lang.String" value="Doktor Tan&#x131;mlar&#x131;"/>
           </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnpoliklinik2">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="2" name="C:\Users\rbarka.INNOVA\Documents\NetBeansProjects\HastaneOtoMasyonu\src\images\hasta_kayit.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="G&#xfc;venlik Kurumu Tan&#x131;mlar&#x131;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnpoliklinik3">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="2" name="C:\Users\rbarka.INNOVA\Documents\NetBeansProjects\HastaneOtoMasyonu\src\images\hasta_kayit.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Hasta T&#xfc;r&#xfc; Tan&#x131;mlar&#x131;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnpoliklinik4">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="2" name="C:\Users\rbarka.INNOVA\Documents\NetBeansProjects\HastaneOtoMasyonu\src\images\hasta_kayit.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x130;la&#xe7; Tan&#x131;mlar&#x131;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnpoliklinik5">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="2" name="C:\Users\rbarka.INNOVA\Documents\NetBeansProjects\HastaneOtoMasyonu\src\images\hasta_kayit.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Klinik Tan&#x131;mlar&#x131;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnpoliklinik6">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="2" name="C:\Users\rbarka.INNOVA\Documents\NetBeansProjects\HastaneOtoMasyonu\src\images\hasta_kayit.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#xd6;n Tan&#x131; Tan&#x131;mlar&#x131;"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="btnpoliklinik7">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="2" name="C:\Users\rbarka.INNOVA\Documents\NetBeansProjects\HastaneOtoMasyonu\src\images\hasta_kayit.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Kan Grubu Tan&#x131;mlar&#x131;"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/images/59f59aa910d63.jpg"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="0" y="0" width="660" height="-1"/>
+            </Constraint>
+          </Constraints>
         </Component>
       </SubComponents>
     </Container>

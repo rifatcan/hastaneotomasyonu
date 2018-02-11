@@ -31,6 +31,14 @@ public class frmAnaSayfa extends javax.swing.JFrame {
         btnhastakayit = new javax.swing.JButton();
         btnpoliklinik = new javax.swing.JButton();
         btnpoliklinik1 = new javax.swing.JButton();
+        btnpoliklinik2 = new javax.swing.JButton();
+        btnpoliklinik3 = new javax.swing.JButton();
+        btnpoliklinik4 = new javax.swing.JButton();
+        btnpoliklinik5 = new javax.swing.JButton();
+        btnpoliklinik6 = new javax.swing.JButton();
+        btnpoliklinik7 = new javax.swing.JButton();
+        jPanel2 = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Ana Sayfa");
@@ -42,7 +50,25 @@ public class frmAnaSayfa extends javax.swing.JFrame {
         btnpoliklinik.setText("Poliklinik");
 
         btnpoliklinik1.setIcon(new javax.swing.ImageIcon("C:\\Users\\rbarka.INNOVA\\Documents\\NetBeansProjects\\HastaneOtoMasyonu\\src\\images\\hasta_kayit.png")); // NOI18N
-        btnpoliklinik1.setText("Poliklinik");
+        btnpoliklinik1.setText("Doktor Tanımları");
+
+        btnpoliklinik2.setIcon(new javax.swing.ImageIcon("C:\\Users\\rbarka.INNOVA\\Documents\\NetBeansProjects\\HastaneOtoMasyonu\\src\\images\\hasta_kayit.png")); // NOI18N
+        btnpoliklinik2.setText("Güvenlik Kurumu Tanımları");
+
+        btnpoliklinik3.setIcon(new javax.swing.ImageIcon("C:\\Users\\rbarka.INNOVA\\Documents\\NetBeansProjects\\HastaneOtoMasyonu\\src\\images\\hasta_kayit.png")); // NOI18N
+        btnpoliklinik3.setText("Hasta Türü Tanımları");
+
+        btnpoliklinik4.setIcon(new javax.swing.ImageIcon("C:\\Users\\rbarka.INNOVA\\Documents\\NetBeansProjects\\HastaneOtoMasyonu\\src\\images\\hasta_kayit.png")); // NOI18N
+        btnpoliklinik4.setText("İlaç Tanımları");
+
+        btnpoliklinik5.setIcon(new javax.swing.ImageIcon("C:\\Users\\rbarka.INNOVA\\Documents\\NetBeansProjects\\HastaneOtoMasyonu\\src\\images\\hasta_kayit.png")); // NOI18N
+        btnpoliklinik5.setText("Klinik Tanımları");
+
+        btnpoliklinik6.setIcon(new javax.swing.ImageIcon("C:\\Users\\rbarka.INNOVA\\Documents\\NetBeansProjects\\HastaneOtoMasyonu\\src\\images\\hasta_kayit.png")); // NOI18N
+        btnpoliklinik6.setText("Ön Tanı Tanımları");
+
+        btnpoliklinik7.setIcon(new javax.swing.ImageIcon("C:\\Users\\rbarka.INNOVA\\Documents\\NetBeansProjects\\HastaneOtoMasyonu\\src\\images\\hasta_kayit.png")); // NOI18N
+        btnpoliklinik7.setText("Kan Grubu Tanımları");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -52,8 +78,14 @@ public class frmAnaSayfa extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(btnhastakayit, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(btnpoliklinik, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 121, Short.MAX_VALUE)
-                    .addComponent(btnpoliklinik1, javax.swing.GroupLayout.DEFAULT_SIZE, 121, Short.MAX_VALUE))
+                    .addComponent(btnpoliklinik, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnpoliklinik1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnpoliklinik2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnpoliklinik3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnpoliklinik4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnpoliklinik5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnpoliklinik6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnpoliklinik7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(
@@ -65,8 +97,27 @@ public class frmAnaSayfa extends javax.swing.JFrame {
                 .addComponent(btnpoliklinik)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(btnpoliklinik1)
-                .addContainerGap(330, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btnpoliklinik2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btnpoliklinik3)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btnpoliklinik4)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btnpoliklinik5)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btnpoliklinik6)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btnpoliklinik7)
+                .addContainerGap(183, Short.MAX_VALUE))
         );
+
+        jPanel2.setLayout(null);
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/59f59aa910d63.jpg"))); // NOI18N
+        jLabel1.setToolTipText("");
+        jPanel2.add(jLabel1);
+        jLabel1.setBounds(0, 0, 660, 562);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -75,7 +126,8 @@ public class frmAnaSayfa extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(438, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, 660, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -83,6 +135,7 @@ public class frmAnaSayfa extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
+            .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();
@@ -127,6 +180,14 @@ public class frmAnaSayfa extends javax.swing.JFrame {
     private javax.swing.JButton btnhastakayit;
     private javax.swing.JButton btnpoliklinik;
     private javax.swing.JButton btnpoliklinik1;
+    private javax.swing.JButton btnpoliklinik2;
+    private javax.swing.JButton btnpoliklinik3;
+    private javax.swing.JButton btnpoliklinik4;
+    private javax.swing.JButton btnpoliklinik5;
+    private javax.swing.JButton btnpoliklinik6;
+    private javax.swing.JButton btnpoliklinik7;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
     // End of variables declaration//GEN-END:variables
 }
